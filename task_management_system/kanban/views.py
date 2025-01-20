@@ -52,3 +52,7 @@ def delete_task(request):
         return JsonResponse({'success': False, 'error': 'Task not found'}, status=404)
     except Exception as e:
         return JsonResponse({'success': False, 'error': str(e)}, status=500)
+    
+
+
+
